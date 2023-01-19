@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="animated">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@600&family=Lato:wght@300;400&display=swap"
+    rel="stylesheet">
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="app">
+    <div id="product-image">
+      <button id="btn-360" onclick="toggle()">
+        <img src="./assets/360.svg" alt="Clique para visualização do sofá em 360">
+      </button>
+      <button id="btn-close" onclick="toggle()">
+        <img src="./assets/close.svg" alt="Clique para parar a visualização do sofá em 360">
+      </button>
+      <img id="static" src="./assets/sofa.jpg" alt="Sofá estático">
+      <img id="animated" src="./assets/sofa.gif" alt="Sofá em 360">
+    </div>
+    <div id="product-details">
+      <h4>CÓDIGO: 42040</h4>
+      <h1>Sofá Margot II - Rosé</h1>
+      <p>R$ 4.000</p>
+      <button>ADICIONAR À CESTA</button>
+    </div>
+  </div>
+
+  <script>
+    function toggle() {
+      document.documentElement.classList.toggle('animated')
+    }
+  </script>
+</body>
+
+</html>
