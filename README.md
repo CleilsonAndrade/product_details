@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Product Details</h1>
-  <p>Single page de produto, com intuito de estudo de propriedades de CSS com JavaScript,simulando uma animação em 360 graus.</p>
+  <p>Single page de produto, com intuito de estudo de propriedades de CSS com JavaScript, simulando uma animação em 360 graus.</p>
   <img src="./design/desktop.gif" alt="Logo" width="800">
 </div>
 
@@ -15,7 +15,7 @@
 * [Licença](#licença)
 
 # 📃 <span id="descrição">Descrição</span>
-Single page de produto, com intuito de estudo de propriedades de CSS com JavaScript,simulando uma animação em 360 graus.
+Single page de produto, com intuito de estudo de propriedades de CSS com JavaScript, simulando uma animação em 360 graus.
 
 # 📌 <span id="requisitos">Requisitos Funcionais</span>
 - [x] Animação
